@@ -1,3 +1,7 @@
+create database FuncionariosDB;
+
+use FuncionariosDB;
+
 create table funcionarios (
 	id int auto_increment primary key,
     nome varchar(100) not null,
@@ -6,3 +10,5 @@ create table funcionarios (
     valor_aumento decimal(10,2) not null,
     salario_final decimal(10,2) not null
 );
+
+SELECT * FROM funcionarios;
